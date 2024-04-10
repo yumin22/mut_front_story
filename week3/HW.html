@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE study HW#1</title>
+    <link rel="stylesheet" href="HW.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    
+</head>
+<!--전체적으로 글씨체 바꾸기google font-->
+<body style="background-color: rgb(231, 255, 238);">
+    <div class="whole"> 
+        <div class="header"><i style="color: rgb(138, 138, 138); font-size: 18px;">주유민's 자기소개 페이지</i></div>
+        <div class="maintitle">introduce me !</div> <!--시작할 때 글씨에 모션 주기-->
+        <div class="every">
+            <div class="mainimg">
+                <img src="mianimage.png" width="350px" alt="메인 이미지">
+            </div> <!--이미지 뒤에 반원 넣고싶당 ㅎ-->
+            <header><div class="content"> <!--클릭시 이동 기능 넣기-->
+                <div class="item">
+                    <h1>profile</h1>
+                    <div class="name">
+                        <br><br><br><p id="sub">image<br>birthday<br>hobby</p>  
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>things</h1>
+                    <div class="name">
+                        <br><br><br><p id="sub">movie<br>food<br>number</p>  
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>goals</h1>
+                    <div class="name"> 
+                        <br><br><br><p id="sub">in mutsa</p>
+                    </div>
+                </div></header>
+            </div>
+            <div></div>
+        <div class="first">
+            <div id="profile">profile</div>
+            <div class="columnside">
+                <div class="rowside">
+                    <div id="character"><img src="profileimage.png" height="400px" alt="아바타"></div>
+                    <div id="me">"about me"</div>
+                </div>
+                <div class="firstbox">
+                    <div class="content1"> <!--배경 모양 둥글게 깎기-->
+                        <div id="incontent"><p>안녕하세요! 저는 <b>주유민</b>입니다.<br>
+                        저는 2003년 9월 22일에 태어나 현재 <b>22살</b>입니다. (만으로 20살^^)<br>
+                        현재 인천대학교에 <b>정보통신공학과 22학번</b>으로 재학 중입니다.<br>
+                        취미로 제가 좋아하는 것은 <b>책 읽기, 영화 보기, 수영 등</b>이 있습니다. <br>
+                        앞으로 '멋쟁이 사자처럼'에서 열심히 즐겁게 활동했으면 좋겠습니다! <br>
+                    </p></div>
+                        <div class="bear"><img src="character.jpg" height="150px" alt="닮은 캐릭터"></div> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="second" > 
+            <div class="things">things</div>
+                <div class="movie">
+                    <div id="mythings" style="margin-bottom: 10px;">: fav movie</div>
+                    <div class="inmovie">
+                        <div id="poster">
+                            <!--<img src="poster.jpeg" alt="영화 장면">-->
+                            <img src="poster2.webp" height="520px" alt="영화 포스터" style="padding: 0px;">
+                            <img src="poster3.png" height="520px" alt="영화 명대사" style="padding: 0px;">
+                        </div>
+                        <div id="review" style="background-color: rgb(238, 237, 234);">
+                            <ul><div style="font-weight:bold; font-size: 20px;">에브리씽 에브리웨어 올 앳 원스</div><br>
+                                <li><b>2022.10.12 개봉/2023.10.12 재개봉</b></li><br>
+                                <li><b>출연</b><br> 양자경, 키 호이 콴, 스테파니 수 등</li><br>
+                                <li><b>줄거리</b><br>  미국에 이민 와 힘겹게 세탁소를 운영하던 에블린은 세무당국의 조사에 시달리던 어느 날 
+                                    남편의 이혼 요구와 삐딱하게 구는 딸로 인해 대혼란에 빠진다. 그 순간 에블린은 멀티버스 안에서 수천, 
+                                    수만의 자신이 세상을 살아가고 있다는 사실을 알게 되고, 그 모든 능력을 빌려와 위기의 세상과 
+                                    가족을 구해야 하는 운명에 처한다. (출처: 네이버 영화)</li><br>
+                                <li><b>추천 이유</b><br>에에올은 멀티버스의 다소 복잡할 수 있는 주제를 잘 표현한 영화이며
+                                    인생에 대해 곱씹어 볼 만한 <br>요소가 많은 영화라고 생각한다. <br>(그리고 영화의 사운드트랙도 좋다 b)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="number">
+                    <div id="mythings">: fav number</div>
+                    <div class="favnumber">
+                        <div id="non">1</div><div id="non">2</div><div id="non">3</div>
+                        <div class="fav">4</div><div id="non">5</div><div id="non">6</div>
+                        <div class="fav">7</div>
+                </div>
+                <div class="food">
+                    <div id="mythings">: taste&food</div>
+                    <div class="typefood">
+                        <div class="good">
+                            <img id="favfood" src="favfood.jpeg"  alt="치킨">
+                            <img id="favfood" src="favfood2.jpeg"  alt="소금빵">
+                            <img id="favfood" src="favfood5.jpeg" alt="돈가스">
+                            <img id="favfood" src="favfood4.jpg" alt="디저트">
+                        </div>
+                        <div class="bad">
+                            <img id="badfood" src="badfood1.jpeg" height="200px">
+                            <img id="badfood" src="badfood2.jpeg" height="200px">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div id="mincontent"><i>
+                (알러지도 없고 가리는 음식이 거의 없어서 대부분의 음식을 좋아한다. 다만 청국장은 냄새가 심해서 좋아하지 않는다.)
+                
+            </i></div>
+        </div>
+        
+        <div class="third">
+            <div class="goals">
+                <div id="goals">goals</div>
+                <div class="mygoals">
+                    <div class="goaltitle">
+                        <div class="goaltext">
+                            <div id="mylist"><img src="hobbybook.jpg" height="490px" width="250px" alt="2023 독서">
+                            <p style="margin-left: 15px; margin-top: 5px; width: 500px;">: 독서 기록 어플 '북적북적' 실제 사용 모습</p></div>
+                            <div id="firstgoal">
+                                <ol><br><br><br>
+                                    <li><b style="font-size: 20px;">취미생활과 기록을 돕는 웹/앱 개발</b>
+                                        <ul>
+                                            <br><li><i>
+                                                저는 평소에 어떤 것이든 기록해두는 것을 중요하게 생각합니다.<br>
+                                                독서 기록을 도와주는 앱 '북적북적'을 사용하며 기록을 넘어서서 취향에 맞는 책/영화 등을 <br>추천 해주는
+                                                기능이 있으면 어떨까 생각하게 되었습니다.<br>
+                                                또한 책, 영화와 같은 분야에 국한되지 않고 다양한 분야의 취미 생활의 기록에 쓰일 수 있는 웹/앱을<br>
+                                                만들어 보고 싶다 생각이 들었습니다. <br>
+                                            </i></li>
+                                        </ul>
+                                    </li><br><br><br><br>
+                                    <li>
+                                       <b style="font-size: 20px;">열정을 가지고 목표를 성취한 경험 만들기</b>
+                                       <ul><br>
+                                        <li><i>'멋쟁이 사자처럼'에 들어올 때 서류 폼 양식에 있던 질문이었는데
+                                        스스로 느끼기에 가장 쓰기 <br>어려웠던 항목이라 기억에 남았습니다. 
+                                        그래서 '멋쟁이 사자처럼'에서 활동하며 가져가고 싶은 <br>경험이라고 생각이 들었습니다. </i> </li>
+                                       </ul>
+                                    </li>
+                                </ol></div>
+                            <!--<img src="goal.jpeg" alt="북적북적">-->
+                        </div>
+                        <!--<div id="secondgoal">
+                            <div>두번째</div>
+                        </div>-->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="fourth">
+            <div id="introquiz">~Quiz~</div>
+            <div class="quizquiz">
+                <div class="allquiz">
+                    <div class="quizname">Quiz 1 <b style="font-size: 20px;">내 MBTI 중 가장 극단적인 부분은?</b><br>
+                        <div class="firstanswer">
+                            <div  class="quizanswerimg" id="answerimage">
+                                <img  src="quiz1.jpg" height="465px" alt="quiz1 정답" >
+                            </div>
+                            
+                        </div>
+                        <div class="quizcontent" style="font-family: sans-serif;">
+                            <p>외향형(E) vs <b>내향형(I)</b></p>
+                            <p><b>직관형(N)</b> vs 관찰형(S)</p>
+                            <p><b>사고형(T)</b> vs 감정형(F)</p>
+                            <p><b>계획형(J)</b> vs 탐구형(P)</p>
+                            <p>확신형(-A) vs <b>민감형(-T)</b></p>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="quizname">Quiz 2  <b style="font-size: 20px;">내가 어제 먹은 저녁 메뉴는?</b><br>
+                        <div class="quizcontent">
+                            <img src="quiz2.jpg" alt="참고사진" height="350px" style="margin-top: 20px;"><br>
+                            <label id="secondquiz"><b>찜닭</b></label><button onclick="wrong()">선택</button>
+                            <label id="secondquiz"><b>피자</b></label><button onclick="wrong()">선택</button>
+                            <label id="secondquiz"><b>떡볶이</b></label><button onclick="correct()">선택</button>
+                            <label id="secondquiz"><b>치킨</b></label><button onclick="wrong()">선택</button><br>
+                            <i style="font-size: 12px; color: gray;">(폰 카메라 고장 이슈로 사진은 전부 네이버에서 가져왔습니다...)</i>
+                        </div>
+                    </div>
+                    <div class="quizname">Quiz 3 <b style="font-size: 20px;">밸런스 게임</b><br>
+                        <div class="quizcontent">
+                            <div class="balance">과 안에서 공개 고백 받기<br>
+                            vs<br>
+                            교양 수업에서 공개 고백 받기
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="footer">
+            <img src="footerimg.png" alt="아바타" height="300px" style="margin-top: 20px;">
+            <div class="last">주유민 자기소개 페이지<br>HTML/ CSS (JS 아주 조금...)</div>
+        </div>
+    </div>
+    
+    
+</body>
+<script>
+    function wrong(){
+        alert('땡~ 틀렸습니다...');
+    }
+    function correct(){
+        alert('딩동댕~ 정답입니다!')
+    }
+
+    function showimage(){
+        var answerimage = document.getelement('answerimage');
+        answerimage.style.display = 'block';
+    }
+
+    document.getelement('answerimg').addevent('click',showimage);
+
+</script>
+</html>
